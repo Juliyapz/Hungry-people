@@ -11,6 +11,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -123,6 +124,42 @@
     </div>
   </section>
   <!-- /.team -->
+
+  <section class="booking container">
+    <div class="booking__wrapper">
+      <div class="booking__table">
+        <h3 class="booking__title">book a table</h3>
+        <div class="booking__line"></div>
+        <form class="booking__form">
+          <div class="booking__form-group">
+            <div class="booking__input-group">
+              <input type="text" required placeholder="Name" minlength="2" class="booking__input">
+              <input type="tel" required placeholder="Phone" class="booking__input">
+              <input type="text" required placeholder="Date (mm/dd)" class="booking__input">
+            </div>
+            <div class="booking__input-group">
+              <input type="email" required placeholder="Email" class="booking__input">
+              <input type="text" required placeholder="People" class="booking__input">
+              <input type="text" required placeholder="Time" class="booking__input">
+            </div>
+          </div>
+          <button type="submit" class="booking__button">BOOK NOW</button>
+        </form>
+      </div>
+      <div class="booking__image">
+        <div class="booking__img"></div>
+        <div class="booking__frame"></div>
+      </div>
+    </div>
+    <!-- /.booking__wrapper -->
+    <div class="booking__info-group">
+      <span class="booking__info booking__info--mon">8PM - 10PM, </span>
+      <span class="booking__info booking__info--sat">8PM - 3AM, </span>
+      <span class="booking__info booking__info--tel">+40 729 131 637/+40 726 458 782</span>
+    </div>
+  </section>
+  <!-- /.booking container -->
+
 
 </body>
 
