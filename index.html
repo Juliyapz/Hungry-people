@@ -13,6 +13,9 @@
   <link rel="icon" href="favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
+  <script defer src="scripts/jquery-3.6.0.min.js"></script>
+  <script defer src="scripts/jquery.maskedinput.js"></script>
+  <script defer src="scripts/mask.js"></script>
 </head>
 
 <body>
@@ -134,13 +137,13 @@
           <div class="booking__form-group">
             <div class="booking__input-group">
               <input type="text" required placeholder="Name" minlength="2" class="booking__input">
-              <input type="tel" required placeholder="Phone" class="booking__input">
-              <input type="text" required placeholder="Date (mm/dd)" class="booking__input">
+              <input id="phone" type="tel" required placeholder="Phone" class="booking__input">
+              <input id="date" type="text" required placeholder="Date (mm/dd)" class="booking__input">
             </div>
             <div class="booking__input-group">
               <input type="email" required placeholder="Email" class="booking__input">
               <input type="text" required placeholder="People" class="booking__input">
-              <input type="text" required placeholder="Time" class="booking__input">
+              <input id="time" type="text" required placeholder="Time" class="booking__input">
             </div>
           </div>
           <button type="submit" class="booking__button">BOOK NOW</button>
