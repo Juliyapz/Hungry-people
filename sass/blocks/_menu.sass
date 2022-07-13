@@ -1,0 +1,83 @@
+.menu
+  padding: 100px 0
+  &__title
+    margin: 0 0 18px 0
+    font-family: 'Banny',sans-serif
+    font-size: 36px
+    line-height: 48px
+    text-align: center
+    text-transform: uppercase
+    color: #000000
+  &__line
+    width: 65px
+    height: 5px
+    margin: auto
+    background: #E8C300
+    border-radius: 50px
+  &__text
+    margin: 30px auto 50px auto
+    max-width: 565px
+    font-family: 'Open Sans', sans-serif
+    font-style: normal
+    font-weight: bold
+    font-size: 18px
+    line-height: 28px
+    text-align: center
+    color: #000000
+  &__ul
+    display: flex
+    justify-content: center
+    margin-top: 0
+    margin-bottom: 50px
+    padding: 0
+    list-style: none
+  &__section
+    width: 120px
+    padding: 16px 0
+    font-family: 'Open Sans', sans-serif
+    font-style: normal
+    font-weight: bold
+    font-size: 12px
+    line-height: 18px
+    text-align: center
+    color: #333333
+    cursor: pointer
+    &:not(:last-child)
+      border-right: 1px solid rgba(51, 51, 51, 0.2)
+    &:hover
+      color: rgba(51, 51, 51, 0.5)
+  &__wrapper
+    &--pizza
+      display: flex
+    &--soupe
+      display: none
+    &--pasta
+      display: none
+    &--desert
+      display: none
+    &--wine
+      display: none
+  &__group
+    &:not(:last-child)
+      margin-right: 87px
+    &-ul
+      margin-bottom: 0
+      margin-top: 0
+      padding-left: 0
+      list-style: none
+  &__item
+    width: 363px
+    margin-bottom: 10px
+    font-family: "Banny", sans-serif
+    font-size: 18px
+    line-height: 18px
+    color: #333333
+  &__name
+    display: inline-block
+    width: 222px
+  &__description
+    font-family: "Banny", sans-serif
+    font-size: 12px
+    line-height: 18px
+    color: #333333
+    opacity: 0.5
